@@ -34,6 +34,7 @@ Example:
 {
   "OriginalUrl": "https://google.com"
 }
+```
 
 ## Testing with curl
 
