@@ -1,6 +1,9 @@
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();  // <-- VERY important line
+
+builder.WebHost.UseUrls("http://localhost:5000");
+
+builder.Services.AddControllers();
 
 var app = builder.Build();
 

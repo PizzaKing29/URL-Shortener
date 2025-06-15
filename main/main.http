@@ -1,6 +1,6 @@
-@main_HostAddress = http://localhost:5181
+POST {{main_HostAddress}}/api/UrlShortener
+Content-Type: application/json
 
-GET {{main_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
+{
+  "OriginalUrl": "https://google.com"
+}
